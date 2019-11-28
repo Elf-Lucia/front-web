@@ -1,0 +1,53 @@
+/* pages/fenlei/tmp/03-dibucaidan.wxss */
+.footer{
+position: fixed;
+bottom: 0;
+height: 45px;
+width: 100%;
+color: #666;
+border-top: 1px solid #eee;
+background: white;
+font-size: 16px;
+text-align: center;
+}
+.navs{
+display: flex;
+
+}
+.nav-item{
+align-items: center;
+flex-direction: column;
+padding: 0;
+}
+.nav-image{
+width: 22px;
+height: 22px;
+padding:5px 0 0 0;
+}
+.nav-item text{
+font-size: 12px;
+color: #666;
+margin-top: -5px;
+padding-top: -5px;
+text-align: center;
+display: inline-block;
+word-wrap: break-word;
+}
+.nav-item button{
+font-size: 14px;
+margin: 0;
+padding:10px  0;
+height: 44px;
+display: inline-block;
+width:100%;
+background-color: coral;
+color: white;
+border-radius: 0;
+text-align: center;
+}
+.nav-item .btn01{
+
+}
+.nav-item .btn02{
+background-color: red
+}

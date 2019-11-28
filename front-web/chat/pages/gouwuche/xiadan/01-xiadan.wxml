@@ -1,0 +1,65 @@
+<view class="wx-cells">
+      <view class="wx-cell">
+        <image class="wx-cell-icon"src="/img/dizhi.png"></image>
+        <view class="wx-cell-text">
+          <radio-group>
+            <view><radio  value="公司" checked="{{true}}" >翟惠芝-13516821613</radio><text>杭州市余杭区东港路118号雷恩国际13楼</text></view>
+            <view><radio  value="公司" >翟惠芝13516821613</radio><text>重庆市忠县香山路12号</text></view>
+          </radio-group>
+
+        </view>        
+ 
+        <view class="wx-cell-arrow">
+           <button size='mini'>新</button>
+        </view>
+      </view>
+  </view>
+ 
+
+<image class='img01' src='/images/line01.png'></image>
+
+
+    <scroll-view class="foodList" scroll-y="true">
+
+
+        <view class="food">
+          <image class="img" src="/images/cp01.jpg"></image>
+          <view class="food-info">
+            <view class="name">珀莱雅水动力护肤品套装</view>
+            <view class="sales">月售：11 件 / 库存：121件
+            </view>
+            <view class="price">￥：129.00</view>
+          </view>
+          <view class="food-numb">
+            <text class="mytext" hidden=""> 2 件 </text>
+          </view>
+        </view>
+        
+
+        <view class="food">
+          <image class="img" src="/images/cp02.jpg"></image>
+          <view class="food-info">
+            <view class="name">HFP秋冬季补水保湿亮肤套装</view>
+            <view class="sales">月售：231 件 / 库存：11件
+            </view>
+            <view class="price">￥ 398.00</view>
+          </view>
+          <view class="food-numb">
+            
+            <text class="mytext" hidden=""> 1 件 </text>
+            
+          </view>
+        </view>   
+
+        <view class="food" style='height: 100rpx;'>
+           留言：<input type='text' class='txt01'></input>
+        </view>   
+
+
+    </scroll-view>
+<!--点击下单页面-->
+<view class="footer {{cost!=0?'active':''}}">
+  <view class="howMuch" style='width:50%'>
+    <view class="cost" hidden="{{cost==0}}">金额：￥253.00</view>
+  </view>
+  <view class="pay"  style='width:50%' bindtap='zhifu' >下单支付</view>   </view>

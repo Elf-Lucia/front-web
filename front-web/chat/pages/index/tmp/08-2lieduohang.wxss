@@ -1,0 +1,32 @@
+/* 一行两列布局左侧图片右侧文字分三行*/
+.line{
+display: flex;
+margin: 3rpx;
+border-bottom: 1px solid lightgrey
+}
+.toutiao-img{
+width: 80px;
+height: 80px;
+}
+.two-line-text{
+padding: 7px;
+margin: 2px;
+display: flex;
+flex-direction: column;
+}
+.text-center{
+
+
+}
+.txt1{
+  font-size: 18px;
+color:yellowgreen ;
+}
+.txt2{
+  font-size: 16px;
+color: silver;
+}
+.txt3{
+  font-size: 14px;
+color:orangered ;
+}

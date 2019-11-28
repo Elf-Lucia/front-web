@@ -1,0 +1,24 @@
+/* 一行两列图片 */
+
+.cps2{
+display: flex;
+flex-wrap: wrap;/*自动换行*/
+}
+.cps-item{
+width:48%;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 5rpx;
+}
+.cp2-image{
+ width: 330rpx;
+ height:330rpx;
+}
+.cp-item text{
+  padding-top: 10rpx;
+  font-size: 25rpx;
+  width: 100%;
+  text-align: left;
+  margin-left: 20rpx;
+}

@@ -1,0 +1,5 @@
+<!--一行两列布局左竖线右文字-->
+<view class="text">
+  <view class="line_y"></view>
+  <text>最新产品</text>
+</view>

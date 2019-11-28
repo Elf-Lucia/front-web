@@ -1,0 +1,18 @@
+/* 一行两列布局左竖线右文字 */
+.line_y{
+   width: 3px;
+   height: 18px;
+   display: inline-block;
+   background-color:brown;
+   margin-left: 5px;
+}
+view.text{
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 6px;
+  background-color: aliceblue;
+}
+view text{
+  margin-left: 10px
+}

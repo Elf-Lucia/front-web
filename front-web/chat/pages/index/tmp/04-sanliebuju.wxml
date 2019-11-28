@@ -1,0 +1,8 @@
+<!--- 一行三列通知布局--->
+<view class="wx-cells">
+  <view class="wx-cell">
+  <image src="/images/iconLeft.png" class="wx-cell-icon"></image>
+  <text class="wx-cell-text">11/24 微信小程序商城视频</text>
+  <image src="/images/right.png" class="wx-cell-arrow"></image>
+  </view>
+</view>

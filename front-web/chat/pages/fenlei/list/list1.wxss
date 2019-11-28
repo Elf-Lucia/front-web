@@ -1,0 +1,75 @@
+/* pages/fenlei/list/list1.wxss */
+.container{
+flex: 1;
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+.searh-flex{
+display: flex;
+padding: 20rpx;
+width: 100%;
+border-bottom: 1px solid grey;
+position: relative;
+z-index: 13;
+background: #f4f4f4;
+transition: all 0.3s;
+}
+.search-bar{
+  flex: 1;
+  display: flex;
+  border-radius: 15rpx;
+  border: 1px solid #e8e8e8;
+}
+.search-bar input{
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  height: 72rpx;
+  line-height: 72px;
+  padding: 5rpx 10rpx;
+  background: white;
+}
+.search-bar button{
+  padding: 3px 0;
+  margin: 0;
+  width: 50px;
+  background:coral;
+  color: white;
+  height: 72rpx;
+  line-height: 72rpx;
+  font-size: 35rpx;
+  border-radius: 15rpx;
+padding-left: 0;
+padding-right: 0;
+}
+.filter-tab{
+  display: flex;
+  width: 100%;
+  line-height: 40px;
+  border-bottom: solid 1px gainsboro;
+  position: relative;
+  z-index: 2;
+}
+.filter-tab picker{
+  margin-left: 20rpx;
+  padding-left: 20rpx;
+}
+.filter-tab text{
+  flex: 1;
+  text-align: center;
+}
+.filter-tab text::after{
+  content: '';
+  display: inline-block;
+  vertical-align: 4rpx;
+  width: 0;
+  height: 0;
+  border-top: 12rpx solid #999;
+  border-left: 12rpx solid transparent;
+  border-right: 12rpx solid transparent;
+   border-bottom: 12rpx solid transparent ;
+ margin-left: 8rpx;
+}

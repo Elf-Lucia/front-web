@@ -1,0 +1,23 @@
+<view class="container">
+  <view class="searh-flex">
+    <view class="search-bar">
+      <input type="type" maxlength="12" placeholder="请输入关键字"></input>
+      <button>搜索</button>
+    </view>
+  </view>
+  <view class="filter-tab">
+    <picker range="{{array}}">
+      <text>国家</text>
+    </picker>
+     <picker range="{{array}}">
+      <text>产品分类</text>
+    </picker>
+     <picker range="{{array}}">
+      <text>品牌</text>
+    </picker>
+     <picker range="{{array}}">
+      <text>价格区间</text>
+    </picker>
+  </view>
+
+</view>

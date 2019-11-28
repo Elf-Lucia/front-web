@@ -1,0 +1,14 @@
+<!--精品推荐一行两列图片-->
+<view class="cps2">
+  <view class="cps-item">
+    <image src="/images/icon.png" class="cp2-image"></image>
+    <text>产品名称</text>
+    <text>$21.6</text>
+  </view>
+  <view class="cps-item">
+    <image src="/images/icon.png" class="cp2-image"></image>
+    <text>产品名称</text>
+    <text>$21.6</text>
+  </view>
+
+</view>

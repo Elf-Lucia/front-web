@@ -1,0 +1,12 @@
+<!--底部菜单-->
+<view class="footer">
+  <view class="howMuch" style="width:70%">
+    <view class="img" >
+      <image src="/images/sp02.png" style="width:60rpx;height:60rpx"></image>
+    </view>
+    <view class="cost">￥：253.00</view>
+  </view>
+  <view class="pay" style="width:30%">
+  去结算
+  </view>
+</view>

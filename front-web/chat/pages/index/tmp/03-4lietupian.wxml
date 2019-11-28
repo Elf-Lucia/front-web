@@ -1,0 +1,20 @@
+<!--pages/index/tmp/03-4lietupian.wxml-->
+/*一行4列的图片*/
+<view class="navs">
+  <view class="nav-item">
+    <image src="/images/icon.png" class="nav-img"></image>
+    <text>领优惠券</text>
+  </view>
+   <view class="nav-item">
+    <image src="/images/icon.png" class="nav-img"></image>
+    <text>最新上架</text>
+  </view>
+   <view class="nav-item">
+    <image src="/images/icon.png" class="nav-img"></image>
+    <text>用户中心</text>
+  </view>
+   <view class="nav-item">
+    <image src="/images/icon.png" class="nav-img"></image>
+    <text>订单列表</text>
+  </view>
+</view>

@@ -1,0 +1,22 @@
+/* pages/fenlei/tmp/02-swiper-caidan.wxss */
+.swiper-tab{
+width:100%;
+border-bottom: 1px solid #eee;
+text-align: center;
+line-height: 80rpx;
+}
+.swiper-tab-list{
+display:inline-block;
+width: 33%;
+color: rgb(148, 146, 146);
+
+}
+.on{
+  border-bottom: solid 5rpx darkcyan
+}
+.swiper-box{
+display: block;
+height: 100%;
+width: 100%;
+overflow: hidden;
+}

@@ -1,0 +1,81 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/fenlei/index",
+    "pages/gouwuche/index",
+    "pages/huiyuan/index",
+    "pages/zhishidian/index",
+    "pages/index/tmp/01-image",
+    "pages/index/tmp/02-swiper",
+    "pages/index/tmp/03-4lietupian",
+    "pages/index/tmp/04-sanliebuju",
+    "pages/index/tmp/05-liangliebuju",
+    "pages/index/tmp/06-sanlietupian",
+    "pages/index/tmp/07-2lietupian",
+    "pages/index/tmp/08-2lieduohang",
+
+    "pages/fenlei/tmp/01-picker",
+    "pages/fenlei/tmp/02-swiper-caidan",
+    "pages/fenlei/tmp/03-dibucaidan",
+    "pages/fenlei/tmp/04-scroll-view",
+    "pages/fenlei/tmp/05-wuxingdafen",
+    "pages/fenlei/list/list1",
+    "pages/fenlei/yemian/01-xiangqing",
+
+
+    "pages/gouwuche/tmp/01-dibucaidan",
+    "pages/gouwuche/xiadan/01-xiadan",
+
+    "pages/huiyuan/order/order_list2",
+    "pages/huiyuan/addr/index",
+    "pages/huiyuan/addr/edit",
+    "pages/huiyuan/qita/01-shoucang",
+    "pages/huiyuan/qita/02-wenti",
+    "pages/huiyuan/qita/03-kefu"
+
+
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "易买shop商城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/shou-off.png",
+        "selectedIconPath": "images/shou-on.png"
+      },
+      {
+        "pagePath": "pages/fenlei/index",
+        "text": "分类",
+       "iconPath": "images/fen-off.png",
+      "selectedIconPath": "images/fen-on.png"
+      },
+      {
+        "pagePath": "pages/gouwuche/index",
+        "text": "购物车",
+      "iconPath": "images/che-off.png",
+      "selectedIconPath": "images/che-on.png"
+      },
+      {
+        "pagePath": "pages/huiyuan/index",
+        "text": "我的",
+        "iconPath": "images/hui-off.png",
+        "selectedIconPath": "images/hui-on.png"
+      },
+      {
+        "pagePath": "pages/zhishidian/index",
+        "text": "知识点",
+      "iconPath": "images/anli-off.png",
+      "selectedIconPath": "images/anli-on.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

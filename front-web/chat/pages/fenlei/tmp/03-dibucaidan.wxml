@@ -1,0 +1,28 @@
+<view class="footer">
+ <view class="navs">
+  <view class="nav-item" style="width:12%">
+    <image src="/images/sp01.png" class="nav-image"></image>
+    <text>首页</text>
+  </view>
+
+   <view class="nav-item" style="width:13%">
+    <image src="/images/sp02.png" class="nav-image"></image>
+    <text>收藏</text>
+  </view>
+
+   <view class="nav-item" style="width:14%">
+    <image src="/images/sp03.png" class="nav-image"></image>
+    <text>购物车</text>
+  </view>
+
+   <view class="nav-item" style="width:31%">
+    <button class="btn01">加入购物车</button>
+  </view>
+
+  <view class="nav-item" style="width:31%">
+   <button class="btn02">
+     立刻购买
+   </button>
+  </view>
+ </view>
+</view>

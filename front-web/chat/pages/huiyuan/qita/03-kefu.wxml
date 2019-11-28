@@ -1,0 +1,25 @@
+<view class='about'>
+
+  <view class='about-wei'>
+    <view class='about-img'>
+      <image src='/images/cw.jpg' class='in-img' mode="scaleToFill"></image>
+    </view>
+    <view class='about-title'>慧慧</view>
+  </view>
+
+  <view class='about-content'>
+    微信小程序-电商平台：适合经营电子商务平台移动端所需要
+  </view>
+
+  <view class='about-addr'>
+    <view class='about-tab'>联系方式</view>
+    <view>地址: 浙江杭州余杭雷恩科国际</view>
+    <view>联系电话：135-1233-xxxx</view>
+    <view>商务合作：xxxx@qq.com</view>
+    <view>
+      <button class='tel' type='default'  bindtap="calling">拨打客服电话</button>
+    </view>
+  </view>
+
+
+</view>

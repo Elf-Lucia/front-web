@@ -1,0 +1,9 @@
+<!--一行两列布局左侧图片右侧文字分三行-->
+<view class="line">
+  <image src="/images/shop.png" class="toutiao-img"></image>
+    <view class="two-line-text">
+      <text class="text-center txt1">产品名称</text>
+      <text class="txt2">三国杀规范化的时刻发送给副标题</text>
+      <text class="txt3">￥：97.00</text>
+    </view>
+</view>

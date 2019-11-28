@@ -1,0 +1,41 @@
+<view class='text'>
+  <view class='line_y'></view>
+  <text>常见问题</text>
+</view>
+
+<view class="wx-cells">
+  <view class="wx-cell">
+    <image class="wx-cell-icon"src="/images/tubiao01.png"></image>
+    <text class="wx-cell-text">如何登陆平台和注册账号的问题？</text>
+    <image class="wx-cell-arrow" src="/images/right-gray.png"></image>
+  </view>
+</view>
+
+ 
+<view class="wx-cells">
+  <view class="wx-cell">
+    <image class="wx-cell-icon"src="/images/tubiao02.png"></image>
+    <text class="wx-cell-text">关于会员积分和等级的说明？</text>
+    <image class="wx-cell-arrow" src="/images/right-gray.png"></image>
+  </view>
+</view>
+
+
+<view class="wx-cells">
+  <view class="wx-cell">
+    <image class="wx-cell-icon"src="/images/tubiao03.png"></image>
+    <text class="wx-cell-text">关于商品快递的问题请看这里！</text>
+    <image class="wx-cell-arrow" src="/images/right-gray.png"></image>
+  </view>
+</view>
+
+
+<view class="wx-cells">
+  <view class="wx-cell">
+    <image class="wx-cell-icon"src="/images/tubiao04.png"></image>
+    <text class="wx-cell-text">付费和充值的问题请看这里！</text>
+    <image class="wx-cell-arrow" src="/images/right-gray.png"></image>
+  </view>
+</view>
+
+

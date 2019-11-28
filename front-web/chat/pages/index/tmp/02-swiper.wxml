@@ -1,0 +1,18 @@
+<!---
+ indicatorDots: true,   	boolean	false	否	是否显示面板指示点
+    vertical: false,     boolean	false	否	滑动方向是否为纵向
+    autoplay: false,     	boolean	false	否	是否自动切换
+    interval: 2000,        number	5000	否	自动切换时间间隔
+    duration: 500          number	500	否	滑动动画时长
+
+--->
+
+<swiper indicator-dots="{{true}}" vertical="{{false}}" autoplay="{{true}}" interval="3000" duration="1000">
+          <swiper-item>
+            <image  src="/images/fm.png"></image>
+          </swiper-item>
+          <swiper-item>
+            <image  src="/images/fm.jpg"></image>
+          </swiper-item>
+       
+</swiper>

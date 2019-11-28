@@ -1,0 +1,22 @@
+<view class="container flex-wrap flex-direction-row">
+  <!---left aside--->
+  <view class="aside flex-wrap flex-direction-col" style="min-height:150px;">
+  <block wx:for="{{navList}}">
+			<text class="type-nav {{curNav == item.id ? 'selected' : ''}}" bindtap="selectNav" data-index="{{index}}" data-id="{{item.id}}">{{item.name}}</text>
+		</block>
+  </view>
+  <!---content--->
+<view class="content flex-item"> 
+ <view class="cps">
+		<block wx:for="{{dishesList[curIndex]}}">
+        <view class="cp-item" >
+          <navigator url='/pages/fenlei/yemian/01-xiangqing'>
+              <image src='{{item.img}}' class="cp-image"/>
+              <text>{{item.name}}</text>
+              <text>￥：{{item.price}}</text>
+            </navigator>
+         </view> 
+	  	</block>
+    </view>
+	</view>
+</view>

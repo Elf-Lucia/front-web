@@ -1,0 +1,161 @@
+
+<!--index.wxml-->
+<view class="swiper-tab">
+  <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">全部订单</view>
+  <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">待支付</view>
+  <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">待收货</view>
+</view>
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
+
+  <!-- 全部订单 -->
+  <swiper-item>
+    <scroll-view class="foodList" scroll-y="true">
+        <view class="food danhao " style='height: 100rpx;align-text:left;'>
+           单号：201808081102 | 时间：2018/9/10
+        </view>  
+
+        <view class="food">
+          <image class="img" src="/images/cp01.jpg"></image>
+          <view class="food-info">
+            <view class="name">珀莱雅水动力护肤品套装</view>
+            <view class="sales">月售：11 件 / 库存：121件
+            </view>
+            <view class="price">￥：129.00</view>
+          </view>
+          <view class="food-numb">
+            <text class="mytext" hidden=""> 2 件 </text>
+          </view>
+        </view>
+        <view class="food">
+          <image class="img" src="/images/cp02.jpg"></image>
+          <view class="food-info">
+            <view class="name">HFP秋冬季补水保湿亮肤套装</view>
+            <view class="sales">月售：231 件 / 库存：11件
+            </view>
+            <view class="price">￥ 398.00</view>
+          </view>
+          <view class="food-numb">
+            <text class="mytext" hidden=""> 1 件 </text>
+          </view>
+        </view>   
+        <view class="food  danhao" style='height: 100rpx; justify-content: flex-end;'>
+           <text style='margin-right:10rpx;'>【已收货】</text>
+        </view>   
+  
+
+   
+
+    </scroll-view>
+ 
+
+
+
+  </swiper-item>
+
+  <!-- 待支付 -->
+  <swiper-item>
+    
+
+
+    <scroll-view class="foodList" scroll-y="true">
+
+
+        <view class="food danhao " style='height: 100rpx;align-text:left;'>
+           单号：201808081102 | 时间：2018/9/10
+        </view>  
+
+        <view class="food">
+          <image class="img" src="/images/cp01.jpg"></image>
+          <view class="food-info">
+            <view class="name">珀莱雅水动力护肤品套装</view>
+            <view class="sales">月售：11 件 / 库存：121件
+            </view>
+            <view class="price">￥：129.00</view>
+          </view>
+          <view class="food-numb">
+            <text class="mytext" hidden=""> 2 件 </text>
+          </view>
+        </view>
+        <view class="food">
+          <image class="img" src="/images/cp02.jpg"></image>
+          <view class="food-info">
+            <view class="name">HFP秋冬季补水保湿亮肤套装</view>
+            <view class="sales">月售：231 件 / 库存：11件
+            </view>
+            <view class="price">￥ 398.00</view>
+          </view>
+          <view class="food-numb">
+            <text class="mytext" hidden=""> 1 件 </text>
+          </view>
+        </view>   
+        <view class="food  danhao" style='height: 100rpx; justify-content: flex-end;'>
+           <text style='margin-right:10rpx;'>【待付款】共1件， 产品金额：¥150.00 </text>
+        </view>   
+        <view class="food  danhao " style='height: 100rpx;'>
+
+            <button  size='mini' class='bt01'>取消订单</button>
+            <button  size='mini' >去付款</button>
+              
+        </view>   
+
+
+   
+
+    </scroll-view>
+ 
+
+
+
+  </swiper-item>
+
+  <!-- 待收货 -->
+  <swiper-item>
+   <scroll-view class="foodList" scroll-y="true">
+
+
+        <view class="food danhao " style='height: 100rpx;align-text:left;'>
+           单号：201808081102 | 时间：2018/9/10
+        </view>  
+
+        <view class="food">
+          <image class="img" src="/images/cp01.jpg"></image>
+          <view class="food-info">
+            <view class="name">珀莱雅水动力护肤品套装</view>
+            <view class="sales">月售：11 件 / 库存：121件
+            </view>
+            <view class="price">￥：129.00</view>
+          </view>
+          <view class="food-numb">
+            <text class="mytext" hidden=""> 2 件 </text>
+          </view>
+        </view>
+        <view class="food">
+          <image class="img" src="/images/cp02.jpg"></image>
+          <view class="food-info">
+            <view class="name">HFP秋冬季补水保湿亮肤套装</view>
+            <view class="sales">月售：231 件 / 库存：11件
+            </view>
+            <view class="price">￥ 398.00</view>
+          </view>
+          <view class="food-numb">
+            <text class="mytext" hidden=""> 1 件 </text>
+          </view>
+        </view>   
+        <view class="food  danhao" style='height: 100rpx; justify-content: flex-end;'>
+           <text style='margin-right:10rpx;'>【待付款】共1件， 产品金额：¥150.00 </text>
+        </view>   
+        <view class="food  danhao " style='height: 100rpx;'>
+
+            <button  size='mini' class='bt01'>跟踪物流</button>
+            <button  size='mini' >待收货</button>
+              
+        </view>   
+
+
+   
+
+    </scroll-view>
+  </swiper-item>
+
+
+</swiper>

@@ -1,0 +1,21 @@
+/* pages/index/tmp/03-4lietupian.wxss */
+/*菜单样式*/
+.navs{
+display: flex;
+}
+.nav-item{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;/*按列显示*/
+  padding: 20rpx;
+}
+.nav-item .nav-img{
+  width: 120rpx;
+  height: 120rpx;
+
+}
+.nav-item text{
+  padding-top: 20rpx;
+  font-size: 35rpx;
+}

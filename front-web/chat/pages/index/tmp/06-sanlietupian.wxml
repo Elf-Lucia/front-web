@@ -1,0 +1,31 @@
+<!--一行三列图片不带文字-->
+<view class="cps">
+  <view class="cps-item">
+    <image src="/images/icon.png" class="cp-image"></image>
+  </view>
+  <view class="cps-item">
+    <image src="/images/icon.png" class="cp-image"></image>
+  
+  </view>
+  <view class="cps-item">
+    <image src="/images/icon.png" class="cp-image"></image>
+  </view>
+</view>
+<!--一行三列图片带文字-->
+<view class="cps">
+  <view class="cps-item">
+    <image src="/images/icon.png" class="cp-image"></image>
+    <text>产品名称</text>
+    <text>$21.6</text>
+  </view>
+  <view class="cps-item">
+    <image src="/images/icon.png" class="cp-image"></image>
+    <text>产品名称</text>
+    <text>$21.6</text>
+  </view>
+  <view class="cps-item">
+    <image src="/images/icon.png" class="cp-image"></image>
+    <text>产品名称</text>
+    <text>$21.6</text>
+  </view>
+</view>

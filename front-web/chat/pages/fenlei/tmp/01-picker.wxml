@@ -1,0 +1,5 @@
+
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+  国家
+  </picker>
+

@@ -1,0 +1,133 @@
+page{ background-color:  floralwhite;
+}
+
+.foodList{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #ECECEC;
+  margin-bottom: 100rpx;
+}
+.food{
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 170rpx;
+  border-bottom: 1rpx solid #ECECEC; 
+  background: white;
+}
+.food::before{
+  content: "";
+  width: 15rpx;
+  height: 100%;
+  left: -15rpx;
+  top: 0;
+  border: 1px solid white;
+}
+.food .img{
+  width: 120rpx;
+  height: 120rpx;
+}
+.food-info{
+  padding-left: 15rpx;
+  line-height: 40rpx;
+  flex: 1;
+}
+.food .name{
+  font-size: 30rpx;
+}
+.food .sales{
+  font-size: 25rpx;
+  color: #ACACAC;
+}
+.food .price{
+  font-size: 30rpx;
+  color: red;
+}
+.food-numb{
+  height: 50rpx;
+  display: flex;
+  justify-content: center;
+  margin-top: 30rpx;
+  margin-right: 30rpx;
+  line-height: 50rpx;
+  font-size: 40rpx; 
+}
+ .add
+ {
+   width: 50rpx; 
+   height: 50rpx; 
+   line-height: 50rpx;
+   border-radius: 25rpx; 
+   border: 1rpx; 
+   background:  #FFD161;
+  text-align:  center; 
+  font-size: 50rpx;
+ }
+.mytext{
+  width: 80rpx; 
+  height: 50rpx; 
+  text-align: center;
+  }
+ .remove
+ {
+   width: 50rpx; 
+   height: 50rpx; 
+   border-radius: 25rpx; 
+   border: 1rpx #ECECEC solid;
+  background:  white; 
+  text-align:  center; 
+  font-size: 50rpx;
+ }
+
+/* 购物车底部菜单 */
+.footer{
+width: 100%;
+display: flex;
+position: fixed;
+bottom: 0;
+height: 100rpx;
+right: 0;
+background-color: white;
+}
+.howMuch{
+position: relative;
+flex: 1;
+line-height: 100rpx;
+padding-left: 130rpx;
+}
+.footer .img{
+position: absolute;
+background-color: #FFD161;
+width: 90rpx;
+height: 90rpx;
+border-radius: 50%;
+left: 20rpx;
+display: flex;
+align-items: center;
+justify-content: center;
+top:-45rpx;
+}
+.cost{
+margin-top: 20rpx;
+color: red;
+font-size: 40rpx;
+font-weight: bold;
+line-height: 50rpx;
+height: 50rpx;
+margin-left: 50rpx;
+}
+.footer .pay{
+width: 100%;
+text-align: center;
+line-height: 100rpx;
+ color: white;
+ font-weight: bold;
+  font-size: 35rpx;
+  background: #CCCCCC;
+}
+.footer.active .pay{
+  background: #FFD161;
+  color: black;
+}

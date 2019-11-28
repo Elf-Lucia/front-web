@@ -1,0 +1,174 @@
+
+/**index.wxss**/
+.ad01{
+  width: 100%;
+  height: 40px;/*最顶部的广告图片*/
+}
+.ad02{
+  width: 100%;
+  height: 80px;/*中间的广告图片*/
+}
+.slide-img{
+  width: 100%;
+  height: 150px;
+  display: inline-block;
+  overflow: hidden;
+}
+.slide-img image{
+  width: 100%;
+ margin-top: -40px;
+}
+/*菜单样式*/
+.navs{
+display: flex;
+}
+.nav-item{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;/*按列显示*/
+  padding: 20rpx;
+}
+.nav-item navigator{
+  padding: 3px;
+}
+.nav-item .nav-image{ 
+  width: 120rpx; 
+  height: 120rpx; 
+  padding-left: 5px;
+  } 
+.nav-item text{ 
+  padding: 0;
+  margin: 0;
+  padding-top: 20rpx; 
+  font-size: 35rpx;
+  width: 100%;
+  margin-left: -3px;
+  }
+/* 一行三列布局左图标中文字右图标 */
+.wx-cells{
+  width:100%;
+  margin-top: 15rpx;
+  font-size: 34rpx;
+ border-top: 1rpx solid #d9d9d9; 
+ border-bottom: 1rpx solid #d9d9d9;
+  background-color: white
+}
+.wx-cell{
+  display: flex;
+  padding: 20rpx 25rpx;
+  align-items: center;
+}
+.wx-cell-icon{
+  width: 56rpx;
+  height: 56rpx;
+}
+.wx-cell-text{
+flex: 1;
+margin-left: 30rpx;
+}
+.wx-cell-arrow{
+ width: 30rpx;
+ height: 30rpx;
+ margin-right: 10rpx
+}
+/* 一行两列布局左竖线右文字 */
+.line_y{
+   width: 3px;
+   height: 18px;
+   display: inline-block;
+   background-color:brown;
+   margin-left: 5px;
+}
+view.text{
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 6px;
+  background-color: aliceblue;
+}
+view text{
+  margin-left: 10px
+}
+/* 一行三列布局带文字 */
+.cps{
+display: flex;
+flex-wrap: wrap;/*自动换行*/
+
+}
+.cps-item{
+width:32%;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 5rpx;
+}
+.cp-image{
+ width: 220rpx;
+ height: 220rpx;
+}
+.cps-item text{
+  padding-top: 10rpx;
+  font-size: 25rpx;
+  width: 100%;
+  text-align: left;
+  background-color: white;
+}
+
+/* 一行两列图片 */
+
+.cp{
+display: flex;
+flex-wrap: wrap;/*自动换行*/
+}
+.cp-item{
+width:48%;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 5rpx;
+}
+.cp2-image{
+ width: 330rpx;
+ height:330rpx;
+}
+.cp-item text{
+  padding-top: 10rpx;
+  font-size: 25rpx;
+  width: 100%;
+  text-align: left;
+  margin-left: 20px
+}
+
+/* 一行两列布局左侧图片右侧文字分三行*/
+.line{
+display: flex;
+margin: 3rpx;
+border-bottom: 1px solid lightgrey
+}
+.toutiao-img{
+width: 80px;
+height: 80px;
+}
+.two-line-text{
+padding: 7px;
+margin: 2px;
+display: flex;
+flex-direction: column;
+}
+.text-center{
+
+
+}
+.txt1{
+  font-size: 16px;
+color:yellowgreen ;
+}
+.txt2{
+  font-size: 14px;
+color: silver;
+}
+.txt3{
+  font-size: 14px;
+color:orangered ;
+}

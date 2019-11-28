@@ -1,0 +1,155 @@
+<view>
+<image class="ad01" src="/images/ban1.jpg"></image>
+<image class="ad02" src="/images/ban2.jpg"></image>
+</view>
+<!---轮播图--->
+<swiper class="slide-img" indicator-dots="{{true}}" vertical="{{false}}" autoplay="{{true}}" interval="3000" duration="1000">
+          <swiper-item>
+            <image  src="/images/ban3.jpg"></image>
+          </swiper-item>
+          <swiper-item>
+            <image  src="/images/ban4.jpg"></image>
+          </swiper-item>
+       
+</swiper>
+
+<!---一行4列的图片菜单栏目--->
+<view class='navs'>
+  <view class='nav-item'>
+    <navigator url='/pages/fenlei/list/list1'>
+    <image src='/images/menu01.png' class='nav-image'></image>
+    <text>品牌大全</text>
+    </navigator>
+  </view>
+  <view class='nav-item'>
+    <navigator url='/pages/fenlei/list/list1'>
+    <image src='/images/menu02.png' class='nav-image'></image>
+    <text>最新上架</text>
+    </navigator>
+  </view>
+  <view class='nav-item'>
+    <navigator>
+    <image src='/images/menu03.png' class='nav-image'></image>
+    <text>用户中心</text>
+    </navigator>
+  </view>
+  <view class='nav-item'>
+    <navigator>
+    <image src='/images/menu04.png' class='nav-image'></image>
+    <text>订单列表</text>
+    </navigator>
+  </view>        
+</view>
+<view class='navs'>
+  <view class='nav-item'>
+    <image src='/images/menu05.png' class='nav-image'></image>
+    <text>留言反馈</text>
+  </view>
+  <view class='nav-item'>
+    <image src='/images/menu06.png' class='nav-image'></image>
+    <text>活动列表</text>
+  </view>
+  <view class='nav-item'>
+    <image src='/images/menu07.png' class='nav-image'></image>
+    <text>帮助中心</text>
+  </view>
+  <view class='nav-item'>
+    <image src='/images/menu08.png' class='nav-image'></image>
+    <text>关于我们</text>
+  </view>        
+</view>
+
+
+<!--- 一行三列通知布局--->
+<view class="wx-cells">
+  <view class="wx-cell">
+  <image src="/images/news.png" class="wx-cell-icon"></image>
+  <text class="wx-cell-text">11/24 微信小程序商城视频</text>
+  <image src="/images/right.png" class="wx-cell-arrow"></image>
+  </view>
+</view>
+
+<!--一行两列布局左竖线右文字-->
+<view class="text">
+  <view class="line_y"></view>
+  <text>最新产品</text>
+</view>
+
+<!--一行三列图片带文字-->
+<view class="cps">
+  <view class="cps-item">
+     <navigator url="/pages/fenlei/yemian/01-xiangqing">
+      <image src="/images/cp01.jpg" class="cp-image"></image>
+      <text>产品名称</text>
+      <text>$21.6</text>
+      </navigator>
+  </view>
+  <view class="cps-item">
+    <navigator url="/pages/fenlei/yemian/01-xiangqing">
+      <image src="/images/cp02.jpg" class="cp-image"></image>
+      <text>产品名称</text>
+      <text>$21.6</text>
+      </navigator>
+  </view>
+  <view class="cps-item">
+   <navigator url="/pages/fenlei/yemian/01-xiangqing">
+    <image src="/images/cp03.jpg" class="cp-image"></image>
+    <text>产品名称</text>
+    <text>$21.6</text>
+    </navigator>
+  </view>
+</view>
+<!--精品推荐一行两列布局左竖线右文字-->
+<view class="text">
+  <view class="line_y"></view>
+  <text>精品推荐</text>
+</view>
+
+<!--精品推荐一行两列图片-->
+<view class="cp">
+  <view class="cp-item">
+   <navigator url="/pages/fenlei/yemian/01-xiangqing">
+    <image src="/images/cp06.jpg" class="cp2-image"></image>
+    <text>产品名称</text>
+    <text>$21.6</text>
+    </navigator>
+  </view>
+  <view class="cp-item">
+  <navigator url="/pages/fenlei/yemian/01-xiangqing">
+    <image src="/images/cp07.jpg" class="cp2-image"></image>
+    <text>产品名称</text>
+    <text>$21.6</text>
+    </navigator>
+  </view>
+</view>
+<!--销售排行-->
+<view class="text">
+  <view class="line_y"></view>
+  <text>销售排行</text>
+</view>
+
+<!--一行两列布局左侧图片右侧文字分三行-->
+<view class="line">
+  <image src="/images/cp11.jpg" class="toutiao-img"></image>
+    <view class="two-line-text">
+      <text class="text-center txt1">自然堂化妆品女雪域精粹系列</text>
+      <text class="txt2">冰肌水+乳液【活力冰肌礼盒】</text>
+      <text class="txt3">￥：97.00</text>
+    </view>
+</view>
+<view class="line">
+  <image src="/images/cp11.jpg" class="toutiao-img"></image>
+    <view class="two-line-text">
+      <text class="text-center txt1">自然堂化妆品女雪域精粹系列</text>
+      <text class="txt2">冰肌水+乳液【活力冰肌礼盒】</text>
+      <text class="txt3">￥：97.00</text>
+    </view>
+</view>
+<view class="line">
+  <image src="/images/cp11.jpg" class="toutiao-img"></image>
+    <view class="two-line-text">
+      <text class="text-center txt1">自然堂化妆品女雪域精粹系列</text>
+      <text class="txt2">冰肌水+乳液【活力冰肌礼盒】</text>
+      <text class="txt3">￥：97.00</text>
+    </view>
+</view>

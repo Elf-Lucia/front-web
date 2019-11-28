@@ -1,0 +1,61 @@
+<navigator url="/pages/index/tmp/01-image">
+---图片image的使用
+</navigator>
+
+<navigator url="/pages/index/tmp/02-swiper">
+---图片轮播swiper的使用
+</navigator>
+
+<navigator url="/pages/index/tmp/03-4lietupian">
+---图片一行4列
+</navigator>
+
+<navigator url="/pages/index/tmp/04-sanliebuju">
+---一行三列布局（左图标，中文字，右图标）
+</navigator>
+
+<navigator url="/pages/index/tmp/05-liangliebuju">
+---一行两列布局左竖线右文字
+</navigator>
+
+<navigator url="/pages/index/tmp/06-sanlietupian">
+---一行三列图片
+</navigator>
+
+<navigator url="/pages/index/tmp/07-2lietupian">
+---一行两列图片
+</navigator>
+<navigator url="/pages/index/tmp/08-2lieduohang">
+---一行两列左侧文字三行
+</navigator>
+
+
+--------------分类
+<navigator url="/pages/fenlei/tmp/01-picker">
+picker选择器
+</navigator>
+<navigator url="/pages/fenlei/tmp/02-swiper-caidan">
+---swiper顶部菜单
+</navigator>
+<navigator url="/pages/fenlei/list/list1">
+---产品列表
+</navigator>
+<navigator url="/pages/fenlei/tmp/02-swiper-caidan">
+---商品/详情/评论三个栏目自由切换
+</navigator>
+<navigator url="/pages/fenlei/tmp/03-dibucaidan">
+---底部菜单
+</navigator>
+<navigator url="/pages/fenlei/tmp/04-scroll-view">
+---scroll-view解决swiper高度限制问题，超出高度的部分无法显示的问题
+</navigator>
+
+<navigator url="/pages/fenlei/tmp/05-wuxingdafen">
+---五星打分
+</navigator>
+
+
+--------------购物车
+<navigator url="/pages/gouwuche/tmp/01-dibucaidan">
+---购物车底部菜单
+</navigator>

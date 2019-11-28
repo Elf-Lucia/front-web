@@ -1,0 +1,49 @@
+/* 购物车底部菜单 */
+.footer{
+  width: 100%;
+display: flex;
+position: absolute;
+bottom: 0;
+height: 100rpx;
+right: 0;
+}
+.howMuch{
+position: relative;
+flex: 1;
+line-height: 100rpx;
+padding-left: 130rpx;
+}
+.footer .img{
+position: absolute;
+background-color: #FFD161;
+width: 90rpx;
+height: 90rpx;
+border-radius: 50%;
+left: 20rpx;
+display: flex;
+align-items: center;
+justify-content: center;
+top:-45rpx;
+}
+.cost{
+margin-top: 20rpx;
+color: red;
+font-size: 40rpx;
+font-weight: bold;
+line-height: 50rpx;
+height: 50rpx;
+margin-left: 50rpx;
+}
+.footer .pay{
+width: 200rpx;
+text-align: center;
+line-height: 100rpx;
+ color: white;
+ font-weight: bold;
+  font-size: 35rpx;
+  background: #CCCCCC;
+}
+.footer.active .pay{
+  background: #FFD161;
+  color: black;
+}
