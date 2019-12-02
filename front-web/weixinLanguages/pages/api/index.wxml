@@ -1,0 +1,29 @@
+<!--pages/api/index.wxml-->
+<navigator url="/pages/api/view/01wx-request">
+<view>---获取远程服务上的数据  wx.request</view>
+</navigator>
+<navigator url="/pages/api/view/02wx-chooseImage">
+<view>---调用本地的相册或相机 wx.chooseImage</view>
+</navigator>
+<navigator url="/pages/api/view/05wx-upload">
+<view>---wx.uploadFile 将本地资源上传到服务器</view>
+</navigator>
+<navigator url="/pages/api/huancun/01wx-setStorage">
+<view>---设置缓存数据 wx.setStorage</view>
+</navigator>
+<navigator url="/pages/api/huancun/02wx-getStorageInfo">
+<view>---读取缓存数据 wx.getStorage</view>
+</navigator>
+
+<navigator url="/pages/api/jiekou/01wx-getSetting">
+<view>---获取用户的当前设置 wx.getSetting</view>
+</navigator>
+<navigator url="/pages/api/jiekou/03wx-chooseAddress">
+<view>---获取收货地址</view>
+</navigator>
+<navigator url="/pages/api/jiekou/04wx-authorize">
+<view>---提前向用户发起授权请求</view>
+</navigator>
+<navigator url="/pages/api/jiekou/05wx-getUserInfo">
+<view>---获取用户信息</view>
+</navigator>

@@ -1,0 +1,7 @@
+<!--pages/api/view/05wx-upload.wxml-->
+<button bindtap="myimg"> wx.uploadFile将本地资源上传到服务器 </button>
+
+<view>{{jieguo}}</view>
+<view>{{jieguo2}}</view>
+----------------------------------
+<view>{{jieguo3}}</view>

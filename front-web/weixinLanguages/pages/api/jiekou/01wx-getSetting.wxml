@@ -1,0 +1,3 @@
+<!--pages/api/jiekou/01wx-getSetting.wxml-->
+
+<button bindtap="myget01"> wx.getSetting 获得用户的设置信息</button>

@@ -1,0 +1,75 @@
+
+/*灰色的空白横线*/
+.graySpace{ 
+  padding-left: 40rpx;
+  background: #eee;
+  font-size: 12px;
+  min-height: 30rpx;
+}
+
+.yonghu_xinxi{
+    display: flex;
+    margin: 1rpx;
+    border-bottom: 1rpx solid #eee;
+    padding: 20rpx 30rpx;
+}
+.yonghu_xinxi_img{
+  float: left;
+  width: 125rpx;
+  height: 125rpx;
+  box-sizing: border-box; 
+  border-radius: 3px;
+}
+.two-line-text{
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+}
+.text-center{
+    margin: 0 auto;
+}
+.txt1{
+    margin: 3px 3px;
+    font-size: 16px;
+    white-space: nowrap; 
+}
+.txt2{
+    margin: 3px 3px;
+    font-size: 13px;
+     color: #656565;
+    white-space: nowrap;
+}
+.arrow{
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+  margin-top: 60rpx;
+  text-align: right;
+}
+
+.wx-cells {
+  width: 100%;
+  margin-top: 0rpx; /**/
+  font-size: 34rpx;
+  border-top: 1rpx solid #d9d9d9;
+  border-bottom: 1rpx solid #d9d9d9;
+  background-color: #fff;
+}
+.wx-cell {
+  padding: 20rpx 25rpx;
+  display: flex;
+  align-items: center;
+}
+.wx-cell-icon{
+  width: 56rpx;
+  height: 56rpx;
+}
+.wx-cell-text{
+  flex: 1;
+  margin-left: 30rpx;
+}
+.wx-cell-arrow{
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 10rpx;
+}

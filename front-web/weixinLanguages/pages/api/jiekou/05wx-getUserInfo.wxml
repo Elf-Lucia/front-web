@@ -1,0 +1,13 @@
+
+
+<open-data type="userAvatarUrl"></open-data>
+<open-data type="userNickName"></open-data>
+<open-data type="userGender"></open-data>
+<open-data type="userCity"></open-data>
+
+<!-- 需要使用 button 来授权登录 -->
+<button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">wx.getUserInfo获取用户信息</button>
+<view wx:else>请升级微信版本</view>
+
+
+<button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">获取用户信息</button>

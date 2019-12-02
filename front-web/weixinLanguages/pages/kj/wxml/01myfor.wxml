@@ -1,0 +1,35 @@
+<!--wx:for 数组-->
+<view>----------循环数组</view>
+<view wx:for="{{array}}">
+{{index}}:{{item}}
+</view>
+<!--wx:for 对象-->
+<view>----------循环对象</view>
+<view wx:for="{{xingm}}">
+{{index}}:{{item}}
+</view>
+<!--wx:for 数组-->
+<view>----------循环数组【对象】</view>
+<view wx:for="{{tongxue}}">
+{{index}}:{{item.xm}}
+</view>
+<!--wx:for 数组-->
+<view>----------循环数组直接为数组内容</view>
+<view wx:for="{{['MINA', 'jack']}}">
+{{index}}:{{item}}
+</view>
+<!--wx:for-item 别名-->
+<view>----------使用 wx:for-item 可以指定数组当前元素的变量名，</view>
+<view wx:for="{{array2}}" wx:for-index="idx" wx:for-item="itemName">
+  {{idx}}: {{itemName.message}}
+</view>
+
+<!--wx:for嵌套   九九乘法表-->
+<view>----------wx:for 也可以嵌套，下边是一个九九乘法表</view>
+<view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="i">
+  <view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="j">
+    <view wx:if="{{i <= j}}">
+      {{i}} * {{j}} = {{i * j}}
+    </view>
+  </view>
+</view>

@@ -1,0 +1,23 @@
+<template name="mb01">
+  <view>
+    <text> {{xm}}: {{xb}} </text>
+    <text> 身份证: {{myid}} </text>
+  </view>
+</template>
+<!--使用模板-->
+<template is="mb01" data="{{...person}}"/>
+-------------------------------------------
+ <template name="odd">
+  <view>奇数{{item}}</view>
+ </template>
+
+ <template name="even">
+   <view>偶数{{item}}</view>
+ </template>
+
+ <block wx:for="{{[1,2,3,4,5,6]}}">
+ <view>
+ {{item}}
+ </view>
+ <template is="{{item %2 === 0?'even': 'odd'}}"></template>
+ </block>

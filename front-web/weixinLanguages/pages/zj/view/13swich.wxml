@@ -1,0 +1,18 @@
+<!--pages/zj/view/13swich.wxml-->
+<view>
+ <switch checked="{{true}}" bindchange="switch1Change"/>
+</view>
+ 
+ <view>
+  <switch checked="{{false}}" bindchange="switch1Change"/>
+ </view>
+
+
+ <view>
+  <switch checked="{{true}}" type="checkbox" bindchange="switch1Change"/>
+ </view>
+
+  <view>
+  <switch checked="{{false}}" type="checkbox" bindchange="switch1Change"/>
+ </view>
+ 

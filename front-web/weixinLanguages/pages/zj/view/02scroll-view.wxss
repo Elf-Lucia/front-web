@@ -1,0 +1,14 @@
+
+.scroll-view_H{
+  width: 100vw;
+  white-space: nowrap;
+  height: 200rpx;
+  border: solid 2px red;
+}
+
+.scroll-view-item_H{
+  display: inline-block;
+  width: 45%;
+  border: solid 1px green;
+  height: 100rpx;
+}

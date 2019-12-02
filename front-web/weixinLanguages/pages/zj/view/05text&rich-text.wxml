@@ -1,0 +1,17 @@
+<!--pages/zj/view/05text&rich-text.wxml-->
+<view class="btn-area">
+  <view class="body-view">
+    <text>{{text}}</text>
+    <button bindtap="add">add line</button>
+    <button bindtap="remove">remove line</button>
+  </view>
+</view>
+
+
+<!---传入节点列表--->
+<view>传入节点列表</view>
+<rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>
+
+<!---传入html字符串--->
+<view>传入html字符串</view>
+<rich-text nodes='<div class="div_class" style="line-height:60rpx;color:yellow">world &nbsp; hello</div>'></rich-text>

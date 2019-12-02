@@ -1,0 +1,8 @@
+<!--pages/api/huancun/01wx-setStorage.wxml-->
+<button bindtap="myset1"> wx.setstorage将数据存储在本地缓存中</button>
+<button bindtap="myset2"> 设置缓存数据2</button>
+<view>{{shuju01}}</view>
+
+
+<button bindtap="myget1"> wx.getStorage从本地缓存中异步获取内容</button>
+<view>数据缓存key=key01的值：{{shuju02}}</view>

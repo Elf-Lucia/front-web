@@ -1,0 +1,6 @@
+<button bindtap="settitle">
+通过事件设置栏目的标题
+</button>
+<button bindtap="tishi">
+通过按钮显示提示信息
+</button>

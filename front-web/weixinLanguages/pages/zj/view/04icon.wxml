@@ -1,0 +1,17 @@
+<!--pages/zj/view/04基础内容icon.wxml-->
+<view class="group">
+  <block wx:for="{{iconSize}}"  wx:key="*this">
+    <icon type="success" size="{{item}}"/>
+  </block>
+</view>
+<view class="group">
+  <block wx:for="{{iconType}}"  wx:key="*this">
+    <icon type="{{item}}" size="40"/>
+  </block>
+</view>
+<view class="group">
+  <block wx:for="{{iconColor}}" wx:key="*this">
+    <icon type="success" size="40" color="{{item}}"/>
+  </block>
+</view>
+

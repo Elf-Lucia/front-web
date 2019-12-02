@@ -1,0 +1,23 @@
+/* pages/zj/view/01my-view.wxss */
+.page-section{
+  display: flex;
+  border-bottom: solid 1px #eee;
+  padding: 5px 0;
+}
+.myleft{
+  width: 56rpx;
+  height:56rpx;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.mycenter{
+  flex: 1;
+  margin-left: 10px;
+  margin-top: 12px;
+}
+.myright{
+  width: 30rpx;
+  height: 30rpx;
+   margin-right: 20px;
+  margin-top: 15px;
+}

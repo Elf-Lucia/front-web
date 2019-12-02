@@ -1,0 +1,13 @@
+<!--wx:if 中的变量为真就加载，为false就不加载-->
+<view wx:if="{{zhen}}">存在</view>
+<view wx:if="{{jia}}">不存在</view>
+<!-- wx:if中只要是字符串，默认为true -->
+<view>
+----------wx:if中只要是字符串，默认为true
+</view>
+<view wx:if="true">存在</view>
+<view wx:if="false">存在</view>
+
+<view wx:if="{{length > 5}}"> 1 </view>
+<view wx:elif="{{length > 2}}"> 2 </view>
+<view wx:else> 3 </view>

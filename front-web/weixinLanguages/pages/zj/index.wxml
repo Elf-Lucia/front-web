@@ -1,0 +1,60 @@
+<navigator url="/pages/zj/view/01my-view">
+<view>---视图容器view</view>
+</navigator>
+<navigator url="/pages/zj/view/02scroll-view">
+<view>---可滚动视图容器scroll-view</view>
+</navigator>
+<navigator url="/pages/zj/view/03swiper">
+<view>---滑块视图容器 swiper</view>
+</navigator>
+<navigator url="/pages/zj/view/04icon">
+<view>---基础内容icon</view>
+</navigator>
+<navigator url="/pages/zj/view/05text&rich-text">
+<view>---text and rich-text</view>
+</navigator>
+<navigator url="/pages/zj/view/06progress">
+<view>---progress</view>
+</navigator>
+<navigator url="/pages/zj/view/07form-zj">
+<view>---表单组件</view>
+</navigator>
+<navigator url="/pages/zj/view/08input">
+<view>---input输入框</view>
+</navigator>
+<navigator url="/pages/zj/view/09label">
+<view>---label</view>
+</navigator>
+<navigator url="/pages/zj/view/10picker">
+<view>---picker</view>
+</navigator>
+<navigator url="/pages/zj/view/11radio">
+<view>---radio</view>
+</navigator>
+<navigator url="/pages/zj/view/12slider">
+<view>---滑动选择器slider</view>
+</navigator>
+
+<navigator url="/pages/zj/view/13swich">
+<view>---开关选择器swich</view>
+</navigator>
+<navigator url="/pages/zj/view/14textarea">
+<view>---文本框textarea</view>
+</navigator>
+
+
+<navigator url="/pages/zj/view/navigator/01navigator">
+<view>---导航  navigator</view>
+</navigator>
+<navigator url="/pages/zj/media/01audio">
+<view>---媒体组件audio</view>
+</navigator>
+<navigator url="/pages/zj/media/02image">
+<view>---媒体组件image</view>
+</navigator>
+<navigator url="/pages/zj/media/03video">
+<view>---媒体组件视频video</view>
+</navigator>
+<navigator url="/pages/zj/media/04web-view">
+<view>---web-view</view>
+</navigator>

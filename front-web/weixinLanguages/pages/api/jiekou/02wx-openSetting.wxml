@@ -1,0 +1,2 @@
+<!--pages/api/jiekou/02wx-openSetting.wxml-->
+<button bindtap="myget01"> wx.openSetting调起客户端小程序设置界面</button>

@@ -1,0 +1,10 @@
+
+<view>---没有数据</view>
+<template name="mb01">
+  <text>我是模板里面的内容</text>
+</template>
+
+<view>---添加数据</view>
+<template name="mb02">
+<text>{{text}}</text>
+</template>

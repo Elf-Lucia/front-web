@@ -1,0 +1,8 @@
+<!--pages/zj/media/04web-view.wxml-->
+<view class="page-body">
+  <view class="page-section page-section-gap">
+    <web-view src="http://www.203073.com"></web-view>
+  </view>
+</view>
+<!---不支持打开切换到调试模式--->
+

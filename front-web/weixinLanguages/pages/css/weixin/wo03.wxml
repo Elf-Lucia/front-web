@@ -1,0 +1,57 @@
+  <!--灰色的空白横线-->
+  <view class="graySpace"></view> 
+  <!--朋友圈-->
+  <view class="wx-cells">
+      <view class="wx-cell">
+        <image class="wx-cell-icon"src="/img/weixin/wx03_01pengyouquan.png"></image>
+        <text class="wx-cell-text">朋友圈</text>
+        <image class="wx-cell-arrow" src="/img/right-gray.png"></image>
+      </view>
+  </view>
+
+  <view class="graySpace"></view> 
+  <!--扫一扫-->
+  <view class="wx-cells">
+      <view class="wx-cell">
+        <image class="wx-cell-icon"src="/img/weixin/wx03_02saoyisao.png"></image>
+        <text class="wx-cell-text">扫一扫</text>
+        <image class="wx-cell-arrow" src="/img/right-gray.png"></image>
+      </view>
+  </view>
+
+  <!--摇一摇-->
+  <view class="wx-cells">
+      <view class="wx-cell">
+        <image class="wx-cell-icon"src="/img/weixin/wx03_03yaoyiyao.png"></image>
+        <text class="wx-cell-text">摇一摇</text>
+        <image class="wx-cell-arrow" src="/img/right-gray.png"></image>
+      </view>
+  </view>
+
+  <view class="graySpace"></view> 
+  <!--漂流瓶-->
+  <view class="wx-cells">
+      <view class="wx-cell">
+        <image class="wx-cell-icon"src="/img/weixin/wx03_07piaoliuping.png"></image>
+        <text class="wx-cell-text">漂流瓶</text>
+        <image class="wx-cell-arrow" src="/img/right-gray.png"></image>
+      </view>
+  </view>
+
+  <view class="graySpace"></view> 
+  <!--购物-->
+  <view class="wx-cells">
+      <view class="wx-cell">
+        <image class="wx-cell-icon"src="/img/weixin/wx03_08gouwu.png"></image>
+        <text class="wx-cell-text">购物</text>
+        <image class="wx-cell-arrow" src="/img/right-gray.png"></image>
+      </view>
+  </view>  
+  <!--游戏-->
+  <view class="wx-cells">
+      <view class="wx-cell">
+        <image class="wx-cell-icon"src="/img/weixin/wx03_09youxi.png"></image>
+        <text class="wx-cell-text">游戏</text>
+        <image class="wx-cell-arrow" src="/img/right-gray.png"></image>
+      </view>
+  </view>    

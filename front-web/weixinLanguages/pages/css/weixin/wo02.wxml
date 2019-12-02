@@ -1,0 +1,33 @@
+  <view class="graySpace"></view> 
+  <!--新的朋友-->
+  <view class="wx-cells">
+      <view class="wx-cell">
+        <image class="wx-cell-icon"src="/img/weixin/wx02_01xinpengyou.png"></image>
+        <text class="wx-cell-text">新的朋友</text>
+        <image class="wx-cell-arrow" src="/img/right-gray.png"></image>
+      </view>
+  </view>
+  <!--群聊-->
+  <view class="wx-cells">
+      <view class="wx-cell">
+        <image class="wx-cell-icon"src="/img/weixin/wx02_02qunliao.png"></image>
+        <text class="wx-cell-text">群聊</text>
+        <image class="wx-cell-arrow" src="/img/right-gray.png"></image>
+      </view>
+  </view>  
+  <!--标签-->
+  <view class="wx-cells">
+      <view class="wx-cell">
+        <image class="wx-cell-icon"src="/img/weixin/wx02_03biaoqian.png"></image>
+        <text class="wx-cell-text">标签</text>
+        <image class="wx-cell-arrow" src="/img/right-gray.png"></image>
+      </view>
+  </view>    
+  <!--公众号-->
+  <view class="wx-cells">
+      <view class="wx-cell">
+        <image class="wx-cell-icon"src="/img/weixin/wx02_04gongzhonghao.png"></image>
+        <text class="wx-cell-text">公众号</text>
+        <image class="wx-cell-arrow" src="/img/right-gray.png"></image>
+      </view>
+  </view>      

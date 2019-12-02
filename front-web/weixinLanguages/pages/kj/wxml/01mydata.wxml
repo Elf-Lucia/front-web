@@ -1,0 +1,15 @@
+<!--简单绑定-->
+<view>{{myvar01}}</view>
+<view>{{myvar02}}</view>
+<view>
+  <checkbox checked="{{false}}">正确写法 </checkbox>
+  <checkbox checked="false">错误写法 </checkbox>
+</view>
+<!--数据路径运算-->
+<view>--数据路径运算</view>
+<view>{{ object.name}} {{arr[0]}}</view>
+<!--数组-->
+<view>--数组</view>
+<view wx:for="{{[zero,1,2,3,4]}}">
+  {{item}}
+</view>

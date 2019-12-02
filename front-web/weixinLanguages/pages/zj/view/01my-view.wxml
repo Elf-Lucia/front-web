@@ -1,0 +1,5 @@
+<view class="page-section">
+  <image class="myleft" src="/img/e-on.png"></image>
+  <view class="mycenter">联系我们</view>
+  <image class="myright"src="/img/right-gray.png"></image>
+</view>

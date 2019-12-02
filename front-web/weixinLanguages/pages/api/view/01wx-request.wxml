@@ -1,0 +1,3 @@
+<!--pages/api/view/01wx-request.wxml-->
+<button bindtap="fetchDetail">wx.request 获取远程服务上的请求</button>
+<view>{{jieguo}}</view>

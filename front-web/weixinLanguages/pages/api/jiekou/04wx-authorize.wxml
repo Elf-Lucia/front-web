@@ -1,0 +1,2 @@
+<!--pages/api/jiekou/04wx-authorize.wxml-->
+<button bindtap="myget01"> wx.authorize提前向用户发起授权请求 </button>

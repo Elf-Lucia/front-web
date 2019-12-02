@@ -1,0 +1,4 @@
+<!--pages/api/view/02wx-chooseImage.wxml-->
+<button bindtap="chooseImage">调用本地的相机或者相册</button>
+<view>{{result}}</view>
+<view>{{result2}}</view>

@@ -1,0 +1,9 @@
+<import src="/pages/tmp/mb/mb01.wxml"/>
+<include src="/pages/tmp/mb/top.wxml"/>
+
+<view>---没有数据</view>
+<template is="mb01"></template>
+<view>---添加数据</view>
+<template is="mb02" data="{{text: 'forbar'}}"></template>
+<include src="/pages/tmp/mb/footer.wxml"/>
+

@@ -1,0 +1,99 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/zj/index",
+    "pages/api/index",
+    "pages/kj/index",
+    "pages/kj/wxml/01mydata",
+    "pages/kj/wxml/01myfor",
+    "pages/kj/wxml/02myif",
+    "pages/kj/wxml/03template",
+    "pages/kj/wxml/04mybindtap",
+    "pages/kj/wxml/05fileyinyong",
+    "pages/css/index",
+
+    "pages/zj/view/01my-view",
+    "pages/zj/view/02scroll-view",
+    "pages/zj/view/03swiper",
+    "pages/zj/view/04icon",
+    "pages/zj/view/05text&rich-text",
+    "pages/zj/view/06progress",
+    "pages/zj/view/07form-zj",
+    "pages/zj/view/08input",
+    "pages/zj/view/09label",
+    "pages/zj/view/10picker",
+    "pages/zj/view/11radio",
+    "pages/zj/view/12slider",
+    "pages/zj/view/13swich",
+    "pages/zj/view/14textarea",
+    "pages/zj/view/navigator/01navigator",
+    "pages/zj/view/redict/01redict",
+    "pages/zj/media/01audio",
+    "pages/zj/media/02image",
+    "pages/zj/media/03video",
+    "pages/zj/media/04web-view",
+    "pages/zj/view/07form-zj2",
+
+
+
+    "pages/api/view/01wx-request",
+    "pages/api/view/02wx-chooseImage",
+    "pages/api/view/05wx-upload",
+
+    "pages/api/huancun/01wx-setStorage",
+    "pages/api/huancun/02wx-getStorageInfo",
+    "pages/api/jiekou/01wx-getSetting",
+    "pages/api/jiekou/03wx-chooseAddress",
+    "pages/api/jiekou/04wx-authorize",
+    "pages/api/jiekou/05wx-getUserInfo",
+
+     
+    "pages/css/weixin/wo02",
+    "pages/css/weixin/wo03",
+    "pages/css/weixin/wo04"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微信小程序基础",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/a-off.png",
+        "selectedIconPath": "img/a-on.png"
+      },
+      {
+        "pagePath": "pages/zj/index",
+        "text": "组件",
+        "iconPath": "img/b-off.png",
+        "selectedIconPath": "img/b-on.png"
+      },
+      {
+        "pagePath": "pages/api/index",
+        "text": "API",
+        "iconPath": "img/c-off.png",
+        "selectedIconPath": "img/c-on.png"
+      },
+      {
+        "pagePath": "pages/kj/index",
+        "text": "框架",
+        "iconPath": "img/d-off.png",
+        "selectedIconPath": "img/d-on.png"
+      },
+      {
+        "pagePath": "pages/css/index",
+        "text": "样式",
+        "iconPath": "img/e-off.png",
+        "selectedIconPath": "img/e-on.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

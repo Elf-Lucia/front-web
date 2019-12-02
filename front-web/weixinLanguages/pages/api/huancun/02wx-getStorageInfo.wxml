@@ -1,0 +1,4 @@
+<button bindtap="myget1"> wx.getStorageInfo异步获取当前storage的相关信息</button>
+
+
+<button bindtap="myclear"> 清楚所有缓存</button>

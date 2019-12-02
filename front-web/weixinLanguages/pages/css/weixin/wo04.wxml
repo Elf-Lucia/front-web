@@ -1,0 +1,79 @@
+ 
+  <view class="graySpace"></view><!--定义左边的 头像-->
+
+<!-- 不包含最右边的箭头
+  <view class='yonghu_xinxi'>
+    <image class="yonghu_xinxi_img" src='/images/weixin/tx.jpg' background-size="cover"/>
+    <view class='two-line-text'>
+      <text class='text-center txt1'>杭州摇亿网络.黄菊华</text>
+      <text class="text-center txt2">微信号：zidian81</text>
+    </view>
+  </view>  
+-->
+
+  <!--定义头部： 左侧头像+右侧昵称和微信号-->
+  <view class='yonghu_xinxi'>
+    <image class="yonghu_xinxi_img" src='/img/weixin/tx.jpg' background-size="cover"/>
+    <view class='wx-cell-text two-line-text'>
+      <text class='text-center txt1'>慧慧</text>
+      <text class="text-center txt2">微信号：zidian81</text>
+    </view>
+    <image class="arrow" src="/img/right-gray.png"></image>
+  </view>  
+  
+  <!--灰色的空白横线-->
+  <view class="graySpace"></view> 
+  <!--钱包-->
+  <view class="wx-cells">
+      <view class="wx-cell">
+        <image class="wx-cell-icon"src="/img/weixin/wx04_01qianbao.png"></image>
+        <text class="wx-cell-text">钱包</text>
+        <image class="wx-cell-arrow" src="/img/right-gray.png"></image>
+      </view>
+  </view>
+
+  <!--灰色的空白横线-->
+  <view class="graySpace"></view> 
+  <!--收藏-->
+  <view class="wx-cells">
+      <view class="wx-cell">
+        <image class="wx-cell-icon"src="/img/weixin/wx04_02shoucang.png"></image>
+        <text class="wx-cell-text">收藏</text>
+        <image class="wx-cell-arrow" src="/img/right-gray.png"></image>
+      </view>
+  </view>
+  <!--相册-->
+  <view class="wx-cells">
+      <view class="wx-cell">
+        <image class="wx-cell-icon"src="/img/weixin/wx04_03xiangce.png"></image>
+        <text class="wx-cell-text">相册</text>
+        <image class="wx-cell-arrow" src="/img/right-gray.png"></image>
+      </view>
+  </view>
+  <!--卡包-->
+  <view class="wx-cells">
+      <view class="wx-cell">
+        <image class="wx-cell-icon"src="/img/weixin/wx04_04kabao.png"></image>
+        <text class="wx-cell-text">卡包</text>
+        <image class="wx-cell-arrow" src="/img/right-gray.png"></image>
+      </view>
+  </view>
+  <!--表情-->
+  <view class="wx-cells">
+      <view class="wx-cell">
+        <image class="wx-cell-icon"src="/img/weixin/wx04_05biaoqing.png"></image>
+        <text class="wx-cell-text">表情</text>
+        <image class="wx-cell-arrow" src="/img/right-gray.png"></image>
+      </view>
+  </view>
+
+  <!--灰色的空白横线-->
+  <view class="graySpace"></view> 
+  <!--设置-->
+  <view class="wx-cells">
+      <view class="wx-cell">
+        <image class="wx-cell-icon"src="/img/weixin/wx04_06shezhi.png"></image>
+        <text class="wx-cell-text">设置</text>
+        <image class="wx-cell-arrow" src="/img/right-gray.png"></image>
+      </view>
+  </view>
